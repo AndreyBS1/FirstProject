@@ -1,0 +1,38 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navigation-bar{
+    background-color: #023370;
+    height: 70px;
+    margin: -8px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-logo{
+    display: flex;
+    align-items: center;
+}
+.notifications-logout{
+    display: flex;
+    align-items: center;
+}
+
+.logo-image{
+    height: 59px;
+    width: 239px;
+}
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+.icons{
+    height: 70px;
+    width: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons:hover{
+    background-color: #bb8d54;
+}
