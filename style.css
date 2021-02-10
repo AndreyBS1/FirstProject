@@ -1,6 +1,9 @@
 body{
     font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
 }
+
+
 
 .navigation-bar{
     background-color: #023370;
@@ -9,22 +12,24 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.menu-logo{
+.left-nav-bar{
     display: flex;
     align-items: center;
 }
-.notifications-logout{
+.right-nav-bar{
     display: flex;
     align-items: center;
 }
-
 .logo-image{
     height: 59px;
     width: 239px;
 }
 
+
+
 .material-icons.md-light {
     color: rgba(255, 255, 255, 1);
+    padding: 10px;
 }
 .icons{
     height: 70px;
@@ -35,4 +40,49 @@ body{
 }
 .icons:hover{
     background-color: #bb8d54;
+}
+
+
+
+.content{
+    margin: -8px;
+    padding-top: 8px;
+}
+.sidebar-menu{
+    height: 1000px;
+    width: 240px;
+    background-color: #37383a;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+}
+.profile-image{
+    height: 100px;
+    width: 75px;
+    padding: 20px 15px;
+    border-radius: 20%;
+}
+.profile-info{
+    color: white;
+    padding-right: 15px;
+    width: 120px;
+}
+.sidebar-tools{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.sidebar-topic{
+    display: flex;
+    padding-left: 10px;
+}
+.sidebar-buttons{
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+.sidebar-buttons:hover{
+    background-color: #023370;
 }
