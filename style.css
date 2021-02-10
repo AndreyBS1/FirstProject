@@ -47,9 +47,11 @@ body{
 .content{
     margin: -8px;
     padding-top: 8px;
+    display: flex;
+    flex-direction: row;
 }
 .sidebar-menu{
-    height: 1000px;
+    height: calc(100vh - 70px);
     width: 240px;
     background-color: #37383a;
 }
@@ -76,6 +78,7 @@ body{
 }
 .sidebar-topic{
     display: flex;
+    padding-top: 5px;
     padding-left: 10px;
 }
 .sidebar-buttons{
@@ -85,4 +88,30 @@ body{
 }
 .sidebar-buttons:hover{
     background-color: #023370;
+}
+
+
+
+.main-window{
+    background-color: #f8f9fa;
+    width: calc(100vw - 240px);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.main-window-topic{
+    width: calc(100vw - 240px);
+    display: flex;
+    justify-content: center;
+}
+.news{
+    background-color: white;
+    width: 25vw;
+}
+.news-image{
+    width: 25vw;
+}
+.news-info{
+    color: #023370;
 }
